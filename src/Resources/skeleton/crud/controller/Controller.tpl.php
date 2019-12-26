@@ -41,7 +41,7 @@ class <?= $class_name ?> extends <?= $parent_class_name; ?><?= "\n" ?>
 <?php endif ?>
 
     /**
-     * @Route("/new", name="<?= $route_name ?>_new", methods={"GET","POST"})
+     * @Route("/nouveau", name="<?= $route_name ?>_new", methods={"GET","POST"})
      */
     public function new(Request $request): Response
     {
